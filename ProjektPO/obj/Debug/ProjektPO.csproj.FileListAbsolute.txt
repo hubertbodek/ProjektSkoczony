@@ -1,0 +1,20 @@
+C:\Users\Hubert\source\repos\ProjektPO\bin\Debug\ProjektPO.exe.config
+C:\Users\Hubert\source\repos\ProjektPO\bin\Debug\ProjektPO.exe
+C:\Users\Hubert\source\repos\ProjektPO\bin\Debug\ProjektPO.pdb
+C:\Users\Hubert\source\repos\ProjektPO\obj\Debug\ProjektPO.csprojAssemblyReference.cache
+C:\Users\Hubert\source\repos\ProjektPO\obj\Debug\ProjektPO.csproj.CoreCompileInputs.cache
+C:\Users\Hubert\source\repos\ProjektPO\obj\Debug\ProjektPO.exe
+C:\Users\Hubert\source\repos\ProjektPO\obj\Debug\ProjektPO.pdb
+C:\Users\Julka\Downloads\ProjektPO (2)\ProjektPO\bin\Debug\ProjektPO.exe.config
+C:\Users\Julka\Downloads\ProjektPO (2)\ProjektPO\bin\Debug\ProjektPO.exe
+C:\Users\Julka\Downloads\ProjektPO (2)\ProjektPO\bin\Debug\ProjektPO.pdb
+C:\Users\Julka\Downloads\ProjektPO (2)\ProjektPO\obj\Debug\ProjektPO.csprojAssemblyReference.cache
+C:\Users\Julka\Downloads\ProjektPO (2)\ProjektPO\obj\Debug\ProjektPO.exe
+C:\Users\Julka\Downloads\ProjektPO (2)\ProjektPO\obj\Debug\ProjektPO.pdb
+C:\Users\Hubert\source\repos\ProjektPO - poprawiony\ProjektPO (2)\ProjektPO\obj\Debug\ProjektPO.csprojAssemblyReference.cache
+C:\Users\Hubert\source\repos\ProjektPO - poprawiony\ProjektPO (2)\ProjektPO\obj\Debug\ProjektPO.csproj.CoreCompileInputs.cache
+C:\Users\Hubert\source\repos\ProjektPO - poprawiony\ProjektPO (2)\ProjektPO\obj\Debug\ProjektPO.exe
+C:\Users\Hubert\source\repos\ProjektPO - poprawiony\ProjektPO (2)\ProjektPO\obj\Debug\ProjektPO.pdb
+C:\Users\Hubert\source\repos\ProjektPO - poprawiony\ProjektPO (2)\ProjektPO\bin\Debug\ProjektPO.exe.config
+C:\Users\Hubert\source\repos\ProjektPO - poprawiony\ProjektPO (2)\ProjektPO\bin\Debug\ProjektPO.exe
+C:\Users\Hubert\source\repos\ProjektPO - poprawiony\ProjektPO (2)\ProjektPO\bin\Debug\ProjektPO.pdb

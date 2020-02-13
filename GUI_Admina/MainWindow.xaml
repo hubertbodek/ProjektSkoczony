@@ -1,0 +1,56 @@
+﻿<Window x:Class="GUI_Admina.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GUI_Admina"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="800">
+    <Grid>
+        <Label Content="Dodaj film" HorizontalAlignment="Left" Margin="60,60,0,0" VerticalAlignment="Top"/>
+        <Label Content="Dodaj serial" HorizontalAlignment="Left" Margin="60,120,0,0" VerticalAlignment="Top"/>
+        <Label Content="Dodaj sezon" HorizontalAlignment="Left" Margin="60,180,0,0" VerticalAlignment="Top"/>
+        <Label Content="Dodaj odcinek" HorizontalAlignment="Left" Margin="60,240,0,0" VerticalAlignment="Top"/>
+        <Label Content="Nazwa" HorizontalAlignment="Left" Margin="190,10,0,0" VerticalAlignment="Top"/>
+        <Label Content="Gatunek" HorizontalAlignment="Left" Margin="340,10,0,0" VerticalAlignment="Top"/>
+        <Label Content="Rok powstania" HorizontalAlignment="Left" Margin="444,10,0,0" VerticalAlignment="Top"/>
+        <Label Content="Czas trwania" HorizontalAlignment="Left" Margin="560,10,0,0" VerticalAlignment="Top"/>
+        <Label Content="Numer sezonu" HorizontalAlignment="Left" Margin="190,149,0,0" VerticalAlignment="Top"/>
+        <Label Content="Numer odcinka" HorizontalAlignment="Left" Margin="190,208,0,0" VerticalAlignment="Top"/>
+        <Label Content="Serial" HorizontalAlignment="Left" Margin="340,149,0,0" VerticalAlignment="Top"/>
+        <Label Content="Sezon" HorizontalAlignment="Left" Margin="340,207,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtBox_FilmRok" HorizontalAlignment="Left" Height="23" Margin="444,60,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="100"/>
+        <TextBox x:Name="txtBox_SerialRok" HorizontalAlignment="Left" Height="23" Margin="444,120,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="100"/>
+        <TextBox x:Name="txtBox_SezonRok" HorizontalAlignment="Left" Height="23" Margin="444,180,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="100"/>
+        <TextBox x:Name="txtBox_FilmCzas" HorizontalAlignment="Left" Height="23" Margin="560,60,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="77"/>
+        <TextBox x:Name="txtBox_OdcinekCzas" HorizontalAlignment="Left" Height="23" Margin="560,240,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="77"/>
+        <TextBox x:Name="txtBox_NazwaFilm" HorizontalAlignment="Left" Height="23" Margin="190,60,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtBox_NazwaSerial" HorizontalAlignment="Left" Height="23" Margin="190,120,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtBox_NumerSezon" HorizontalAlignment="Left" Height="23" Margin="190,180,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtBox_NumerOdcinek" HorizontalAlignment="Left" Height="23" Margin="190,240,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btn_DodajFilm" Click ="Btn_DodajFilm_Click" Content="Dodaj" HorizontalAlignment="Left" Margin="680,60,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="btn_DodajSerial" Click ="Btn_DodajSerial_Click" Content="Dodaj" HorizontalAlignment="Left" Margin="680,120,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="btn_DodajSezon" Click ="Btn_DodajSezon_Click" Content="Dodaj" HorizontalAlignment="Left" Margin="680,180,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="btn_DodajOdcinek" Click="Btn_DodajOdcinek_Click" Content="Dodaj" HorizontalAlignment="Left" Margin="680,240,0,0" VerticalAlignment="Top" Width="75"/>
+        <ComboBox x:Name="combo_FilmGatunek" HorizontalAlignment="Left" Margin="340,60,0,0" VerticalAlignment="Top" Width="68">
+            <ComboBoxItem x:Name="horror">horror</ComboBoxItem>
+            <ComboBoxItem x:Name="komedia">komedia</ComboBoxItem>
+            <ComboBoxItem x:Name="thriller">thriller</ComboBoxItem>
+            <ComboBoxItem x:Name="biograficzny">biograficzny</ComboBoxItem>
+            <ComboBoxItem x:Name="akcji">akcji</ComboBoxItem>
+            <ComboBoxItem x:Name="fantasy">fantasy</ComboBoxItem>
+            <ComboBoxItem x:Name="sciencefiction">sci-fi</ComboBoxItem>
+        </ComboBox>
+        <ComboBox x:Name="combo_SerialGatunek" HorizontalAlignment="Left" Margin="340,120,0,0" VerticalAlignment="Top" Width="68">
+            <ComboBoxItem x:Name="horrorS">horror</ComboBoxItem>
+            <ComboBoxItem x:Name="komediaS">komedia</ComboBoxItem>
+            <ComboBoxItem x:Name="thrillerS">thriller</ComboBoxItem>
+            <ComboBoxItem x:Name="biograficznyS">biograficzny</ComboBoxItem>
+            <ComboBoxItem x:Name="akcjiS">akcji</ComboBoxItem>
+            <ComboBoxItem x:Name="fantasyS">fantasy</ComboBoxItem>
+            <ComboBoxItem x:Name="sciencefictionS">sci-fi</ComboBoxItem>
+        </ComboBox>
+        <ComboBox x:Name="combo_SezonSerial" HorizontalAlignment="Left" Margin="340,180,0,0" VerticalAlignment="Top" Width="68"/>
+        <ComboBox x:Name="combo_OdcinekSezon" HorizontalAlignment="Left" Margin="340,240,0,0" VerticalAlignment="Top" Width="68"/>
+    </Grid>
+</Window>

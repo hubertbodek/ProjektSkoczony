@@ -1,0 +1,22 @@
+﻿<Window x:Class="OknoOceniania.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:OknoOceniania"
+        mc:Ignorable="d"
+        Title="Ocenianie" Height="450" Width="670">
+    <Grid>
+        <ListBox x:Name ="listBox_Tabela" HorizontalAlignment="Left" Height="319" Margin="164,60,0,0" VerticalAlignment="Top" Width="307"/>
+        <Button x:Name ="btn_WyswietlFilmy" Click="Btn_WyswietlFilmy_Click" Content="Filmy" HorizontalAlignment="Left" Margin="58,60,0,0" VerticalAlignment="Top" Width="74"/>
+        <Button x:Name ="btn_WyswietlSeriale" Click="Btn_WyswietlSeriale_Click" Content="Seriale" HorizontalAlignment="Left" Margin="58,120,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name ="btn_RankingF" Click ="Btn_RankingF_Click" Content="Ranking filmów" HorizontalAlignment="Left" Margin="50,180,0,0" VerticalAlignment="Top" Width="90"/>
+        <Button x:Name ="btn_WgNazwyF" Click ="Btn_WgNazwyF_Click" Content="Filmy wg nazwy" HorizontalAlignment="Left" Margin="50,240,0,0" VerticalAlignment="Top" Width="90"/>
+        <Button x:Name ="btn_RankingS" Click ="Btn_RankingS_Click" Content="Ranking seriali" HorizontalAlignment="Left" Margin="50,300,0,0" VerticalAlignment="Top" Width="90"/>
+        <Button x:Name ="btn_WgNazwyS" Click ="Btn_WgNazwyS_Click" Content="Seriale wg nazwy" HorizontalAlignment="Left" Margin="50,360,0,0" VerticalAlignment="Top" Width="90"/>
+        <Button x:Name ="btn_Ocen" Click ="Btn_Ocen_Click" Content="Oceń" HorizontalAlignment="Left" Margin="512,250,0,0" VerticalAlignment="Top" Width="75"/>
+        <TextBox x:Name ="txtBox_Ocena" HorizontalAlignment="Left" Height="23" Margin="512,210,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Twoja ocena: (0-10)" HorizontalAlignment="Left" Margin="512,170,0,0" VerticalAlignment="Top"/>
+        <Button x:Name ="btn_RozwinSerial" Click="Btn_RozwinSerial_Click" Content="Pokaż sezony" HorizontalAlignment="Left" Margin="512,60,0,0" VerticalAlignment="Top" Width="90" Height="30"/>
+    </Grid>
+</Window>

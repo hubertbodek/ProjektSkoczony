@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BazaFilmow xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Filmy>
+    <Film>
+      <sredniaOcen>0</sredniaOcen>
+      <rokPowstania>1999</rokPowstania>
+      <Nazwa>Zielona mila</Nazwa>
+      <Gatunek>biograficzny</Gatunek>
+      <Komentarze />
+      <CzasTrwania>3h 8min</CzasTrwania>
+    </Film>
+    <Film>
+      <sredniaOcen>0</sredniaOcen>
+      <rokPowstania>1994</rokPowstania>
+      <Nazwa>Forest Gump</Nazwa>
+      <Gatunek>biograficzny</Gatunek>
+      <Komentarze />
+      <CzasTrwania>2h 22min</CzasTrwania>
+    </Film>
+    <Film>
+      <sredniaOcen>0</sredniaOcen>
+      <rokPowstania>1999</rokPowstania>
+      <Nazwa>Matrix</Nazwa>
+      <Gatunek>sciencefiction</Gatunek>
+      <Komentarze />
+      <CzasTrwania>2h 16min</CzasTrwania>
+    </Film>
+    <Film>
+      <sredniaOcen>0</sredniaOcen>
+      <rokPowstania>2000</rokPowstania>
+      <Nazwa>Gladiator</Nazwa>
+      <Gatunek>akcji</Gatunek>
+      <Komentarze />
+      <CzasTrwania>2h 16min</CzasTrwania>
+    </Film>
+    <Film>
+      <sredniaOcen>0</sredniaOcen>
+      <rokPowstania>2009</rokPowstania>
+      <Nazwa>Avatar</Nazwa>
+      <Gatunek>sciencefiction</Gatunek>
+      <Komentarze />
+      <CzasTrwania>2h 42min</CzasTrwania>
+    </Film>
+    <Film>
+      <sredniaOcen>0</sredniaOcen>
+      <rokPowstania>2001</rokPowstania>
+      <Nazwa>Shrek</Nazwa>
+      <Gatunek>fantasy</Gatunek>
+      <Komentarze />
+      <CzasTrwania>1h 30min</CzasTrwania>
+    </Film>
+    <Film>
+      <sredniaOcen>0</sredniaOcen>
+      <rokPowstania>1997</rokPowstania>
+      <Nazwa>Titanic</Nazwa>
+      <Gatunek>thriller</Gatunek>
+      <Komentarze />
+      <CzasTrwania>3h 14min</CzasTrwania>
+    </Film>
+    <Film>
+      <sredniaOcen>0</sredniaOcen>
+      <rokPowstania>2011</rokPowstania>
+      <Nazwa>Nietykalni</Nazwa>
+      <Gatunek>komedia</Gatunek>
+      <Komentarze />
+      <CzasTrwania>1h 52min</CzasTrwania>
+    </Film>
+    <Film>
+      <sredniaOcen>0</sredniaOcen>
+      <rokPowstania>2010</rokPowstania>
+      <Nazwa>Incepcja</Nazwa>
+      <Gatunek>thriller</Gatunek>
+      <Komentarze />
+      <CzasTrwania>2h 28min</CzasTrwania>
+    </Film>
+    <Film>
+      <sredniaOcen>0</sredniaOcen>
+      <rokPowstania>2002</rokPowstania>
+      <Nazwa>Pianista</Nazwa>
+      <Gatunek>biograficzny</Gatunek>
+      <Komentarze />
+      <CzasTrwania>2h 30min</CzasTrwania>
+    </Film>
+  </Filmy>
+</BazaFilmow>
